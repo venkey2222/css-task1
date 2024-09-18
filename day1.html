@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .cl1,.cl2,.cl3,.cl4,.cl5{
+      color: blueviolet;
+      background-color: rgb(255, 205, 236);
+      
+    }
+    .p1{
+        color: rgb(3, 75, 4);
+        background-color: rgb(17, 219, 128);
+    }
+    *{
+        background-color: beige;
+
+    }
+    .h1{
+        color: rgb(26, 11, 29);
+        background-color: bisque;
+    }
+
+    .p5{
+        color: rgb(232, 51, 23);
+        background-color: rgb(223, 179, 34);
+    }
+
+    .ol1{
+        background-color: aqua;
+    }
+    .li1,.li2,.li3,.li4{
+        background-color: rgb(212, 86, 57);
+    }
+    .demo1,.demo2,.demo3,.demo4,.demo,.demo5{
+        background-color: rgb(97, 90, 204);
+    }
+    #div1{
+        background-color: rgb(88, 115, 79);
+    }
+
+</style>
+
+</head>
+<body>
+    <h2 class="cl1">
+        Cascading Style Sheets
+    </h2>
+    <p class="p1">
+        Cascading Style Sheets, is a style sheet language used to describe the visual presentation of a document written in HTML. CSS describes how elements should be rendered on screen.   It enables web designers to control the layout, colors, fonts, and other visual aspects of multiple web pages all at once. 
+In Cascading Style Sheets (CSS), cascading is the logic that browsers use to determine which CSS rulesets are most important when they conflict with each other. The cascade is central to CSS and is used to solve conflicts when multiple CSS rules apply to an HTML element. For example, if a button is styled with both `button { color: red; }` and `button { color: blue; }`, the cascade will determine that the button's text should be blue.
+
+    </p>
+    <h2 class="cl2">
+        How to insert css into html (3 ways)
+    </h2>
+    <p class="h1">
+        Inline Styling: <br>  In inline styling CSS styles directly apply to the individual HTML elements using the style attribute. <br> <br>
+        Internal Styling: <br> Internal styling in CSS refers to the method of embedding CSS rules directly within the HTML document using the tag. <br> <br>
+        External Styling: <br>External CSS is used to style multiple HTML pages with a single style sheet. External CSS contains a separate CSS file with a .css extension. <br> <br>
+
+    </p>
+
+    <h2 class=" cl3">Specificity:
+    </h2>
+    <p class="p5">Inline styles have higher specificity compared to internal and external styles. <br>
+        Direct Application Over Selector Types: <br> Inline styles are applied directly to the element, bypassing the need for selector matching. The browser prioritizes these direct instructions because they are seen as explicit and unambiguous. <br>
+
+    </p>
+    <h2 class="cl4">CSS SELECTORS
+    </h2>
+    <div >
+    <li class="li1">Simple Selectors </li>
+    <li class="li2">Pseudo Selectors</li>
+    <li class="li3">Combinators</li>
+    <li class="li4">Attribute Selectors</li>
+    </div>
+    <h2 class="cl5">SIMPLE SELECTORS
+    </h2>
+    
+        <ol type="number" class="demo">
+        <li class="demo1">Element Selectors</li>
+ <li class="demo2">Universal Selectors</li>
+  <li class="demo3 ">Id selectors</li>
+<li class="demo4">class selectors</li>
+ <li class="demo5">grouping selectors</li>
+</ol>
+
+
+</body>
+</html>
